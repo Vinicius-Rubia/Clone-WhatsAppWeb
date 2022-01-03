@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #090e11;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #090e11;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6666667e;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER*/
+.content {
+    width: 100%;
+    height: 222px;
+    background-color: #00bfa5;
+}
+
+.content .items-header {
+    margin: 15px 0px 0px 140px;
+    text-transform: uppercase;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.content .items-header span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.content .items-header img {
+    width: 60px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.conteudo-principal {
+    width: 1000px;
+    background-color: #FFF;
+    margin: -130px auto 100px;
+    border-radius: 5px;
+    box-shadow: -1px 5px 10px #090e11;
+}
+
+.conteudo-principal .list-info {
+    display: flex;
+    padding: 65px 65px 0 65px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list-info .primary-box {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.list-info .primary-box h2 {
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.primary-box .list-step {
+    padding: 20px;
+}
+
+.primary-box .list-step .item {
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #666;
+}
+
+.primary-box .list-step .item strong {
+    color: #363636fd;
+}
+
+.primary-box .list-step .item i {
+    background-color: #f2f2f2;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding: 0 60px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.item-options input {
+    margin-right: 7px;
+}
+
+.item-options .box-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-weight: 300;
+}
+
+.item-options a {
+    text-decoration: none;
+    color: #018f7c;
+}
+
+.item-options a:hover {
+    text-decoration: underline;
+}
+
+/* VIDEO EXPLICATIVO */
+.video-help {
+    background: #f0f2f5;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 0 10px;
+}
